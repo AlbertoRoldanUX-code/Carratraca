@@ -219,7 +219,6 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
-  margin: auto;
 }
 
 svg {
@@ -6227,7 +6226,8 @@ a.close.disabled {
   display: none;
   float: left;
   width: 100%;
-  margin-right: -100%;
+  margin: 20px auto;
+
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
@@ -10869,7 +10869,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }
