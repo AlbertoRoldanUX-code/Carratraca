@@ -51,4 +51,9 @@
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
+
+  //Carousel : Remove auto slide
+  $(".carousel").carousel({
+    interval: false,
+  });
 })(jQuery); // End of use strict
