@@ -55,6 +55,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  overflow-x: hidden;
 }
 
 article,
@@ -6227,7 +6228,7 @@ a.close.disabled {
   float: left;
   width: 100%;
   margin: 20px auto;
-
+  margin-right: -100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
@@ -10869,7 +10870,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+
   background-repeat: no-repeat;
   background-position: center;
 }
