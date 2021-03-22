@@ -1,3 +1,7 @@
+.margin-top {
+  margin-top: 30px;
+}
+
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Agency v6.0.3 (https://startbootstrap.com/theme/agency)
@@ -2042,6 +2046,10 @@ pre code {
     max-height: 300px;
     overflow: hidden;
     width: 100%;
+  }
+
+  #img-container {
+    padding: 0;
   }
 }
 @media (max-width: 767.98px) {
@@ -10560,7 +10568,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../img/1.jpg");
+  background-image: url("../img/Rustic farm/1.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
