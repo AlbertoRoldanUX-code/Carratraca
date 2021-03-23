@@ -3,8 +3,13 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
  */
+
 (function ($) {
   "use strict"; // Start of use strict
+
+  let date = new Date().getFullYear();
+
+  document.getElementById("year").innerHTML = date;
 
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
